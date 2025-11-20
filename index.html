@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Abandonment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1 class="page-title">Cart Abandonment Insights</h1>
+            <p class="page-subtitle">Track and recover abandoned shopping carts in real-time</p>
+        </div>
+
+        <!-- KPI Section -->
+        <div class="kpi-section">
+            <div class="kpi-box red">
+                <div class="kpi-label">Abandoned Carts</div>
+                <div class="kpi-number">1,247</div>
+                <div class="kpi-subtitle">+12.5% from last week</div>
+            </div>
+
+            <div class="kpi-box">
+                <div class="kpi-label">Recovery Rate</div>
+                <div class="kpi-number">24.3%</div>
+                <div class="kpi-subtitle positive">+4.2% from last week</div>
+            </div>
+
+            <div class="kpi-box green">
+                <div class="kpi-label">Potential Revenue</div>
+                <div class="kpi-number">$21,738</div>
+                <div class="kpi-subtitle">Total cart value</div>
+            </div>
+
+            <div class="kpi-box">
+                <div class="kpi-label">Email Sent</div>
+                <div class="kpi-number">80</div>
+                <div class="kpi-subtitle">This week</div>
+            </div>
+        </div>
+
+        <div class="main-cart">
+            <div class="header-container">
+                <h2>Abandoned Carts</h2>
+                <div class="input-section">
+                    <input type="text" placeholder="Search by name,product or email..." id="search"/>
+                </div>
+            </div>
+        </div>
+            
+
+        <div class="card">
+            <div class="card-titles">
+                <div class="customer">Customer</div>
+                <div class="product">Product(s)</div>
+                <div class="value">Cart Value</div>
+                <div class="time">Time Abandoned</div>
+                <div class="device">Device</div>
+                <div class="location">Location</div>
+                <div class="status">Status</div>
+                <div class="actions">Actions</div>
+            </div>
+            
+            <div class="cards-details">
+                <div class="customer">
+                    <h3>Sarah Johnson</h3>
+                    <p>sara.j@gmail.com</p>
+                </div>
+                <div class="product">Wireless Headphones</div>
+                <div class="value">$299.90</div>
+                <div class="time">2 hours ago</div>
+                <div class="device">Mobile</div>
+                <div class="location">Lagos</div>
+                <button class="status-btn pending">Pending</button>
+                <button class="Actions-btn">Send Recovery</button>
+            </div>
+            <div class="cards-details">
+                <div class="customer">
+                    <h3>Ada Chris</h3>
+                    <p>ada7@gmail.com</p>
+                </div>
+                <div class="product">Smart Watch Pro</div>
+                <div class="value">$649.90</div>
+                <div class="time">5 hours ago</div>
+                <div class="device">Desktop</div>
+                <div class="location">Lagos</div>
+                <button class="status-btn email">Email Sent</button>
+            </div>
+            <div class="cards-details">
+                <div class="customer">
+                    <h3>Emma Williams</h3>
+                    <p>emma@gmail.com</p>
+                </div>
+                <div class="product">Gaming Laptop</div>
+                <div class="value">$1299.90</div>
+                <div class="time">7 hours ago</div>
+                <div class="device">Mobile</div>
+                <div class="location">Abuja</div>
+                <button class="status-btn email">Email Sent</button>
+                <button class="Actions-btn">Send Recovery</button>
+            </div>
+            <div class="cards-details">
+                <div class="customer">
+                    <h3>Chidera Mbakwe</h3>
+                    <p>dera@gmail.com</p>
+                </div>
+                <div class="product">Fitness Tracker</div>
+                <div class="value">$199.90</div>
+                <div class="time">1 day ago</div>
+                <div class="device">Mobile</div>
+                <div class="location">Ibadan</div>
+                <button class="status-btn recovered">Recovered</button>
+            </div>
+            <div class="cards-details">
+                <div class="customer">
+                    <h3>Bontus Ike</h3>
+                    <p>boniyke4@gmail.com</p>
+                </div>
+                <div class="product">Standing Desk</div>
+                <div class="value">$799.90</div>
+                <div class="time">2 days ago</div>
+                <div class="device">Tablet</div>
+                <div class="location">Umuahia</div>
+                <button class="status-btn lost">Lost</button>
+            </div>
+        </div>
+
+        <!-- Most Abandoned Products -->
+        <div class="section-card">
+            <div class="card-header">
+                <span class="card-header-icon"></span>
+                Most Abandoned Products
+            </div>
+
+            <div class="product-list">
+                <div class="product-item">
+                    <div class="product-image">📱</div>
+                    <div class="product-info">
+                        <div class="product-name">Premium Wireless Headphones</div>
+                        <div class="product-detail">Electronics</div>
+                        <div class="product-price">$249.99</div>
+                    </div>
+                    <div class="product-count">143</div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-image">👕</div>
+                    <div class="product-info">
+                        <div class="product-name">Standing Table</div>
+                        <div class="product-detail">Futniture</div>
+                        <div class="product-price">$79.99</div>
+                    </div>
+                    <div class="product-count">98</div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-image">⌚</div>
+                        <div class="product-info">
+                        <div class="product-name">Smart Watch Pro</div>
+                            <div class="product-detail">Wearables</div>
+                            <div class="product-price">$399.99</div>
+                        </div>
+                        <div class="product-count">87</div>
+                    </div>
+                </div>
+
+                <!-- Stats Row -->
+                <div class="stats-row">
+                    <div   div class="stat-item">
+                        <div class="stat-item-label">Desktop Abandonment</div>
+                        <div class="stat-item-bar">
+                            <div class="stat-item-fill" style="width: 35%;">35%</div>
+                        </div>
+                        <div class="stat-item-footer">
+                            <span class="stat-item-value">285 carts</span>
+                            <span class="stat-item-change">↑ 8.2%</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-item-label">Mobile Abandonment</div>
+                        <div class="stat-item-bar">
+                            <div class="stat-item-fill" style="width: 48%;">48%</div>
+                        </div>
+                        <div class="stat-item-footer">
+                            <span class="stat-item-value">597 carts</span>
+                            <span class="stat-item-change negative">↑ 12.5%</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-item">
+                        <div class="stat-item-label">Email Recovery Success</div>
+                        <div class="stat-item-bar">
+                            <div class="stat-item-fill" style="width: 22%;">22%</div>
+                        </div>
+                        <div class="stat-item-footer">
+                            <span class="stat-item-value">$4,280 recovered</span>
+                            <span class="stat-item-change">↑ 3.1%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-section">
+                    <div class="action-buttons">
+                        <button class="btn btn-primary">Launch Recovery Campaign</button>
+                        <button class="btn btn-primary">View Detailed Report</button>
+                        <button class="btn btn-secondary">Download Analytics</button>
+                        <button class="btn btn-secondary">Settings</button>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+</body>
+</html>
